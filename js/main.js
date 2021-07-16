@@ -98,12 +98,15 @@
         itemSelector: '.portfolio-item',
         layoutMode: 'fitRows'
     });
-
+    
     $('#portfolio-filter li').on('click', function () {
         $("#portfolio-filter li").removeClass('filter-active');
         $(this).addClass('filter-active');
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
     
+   // Portfolio filter Video
+   $('.venobox').venobox(); 
+
 })(jQuery);
 
