@@ -423,7 +423,7 @@
                         <div class="col-md-8">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate" action="https://submit-form.com/eostUNMQ"
+                              <!--  <form name="sentMessage" id="contactForm" novalidate="novalidate" action="https://submit-form.com/eostUNMQ"
                                 >
                                     <div class="control-group">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
@@ -445,6 +445,20 @@
                                         <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
                                     </div>
                                 </form> -->
+                                <form action="https://submit-form.com/eostUNMQ">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Name" required="" />
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Email" required="" />
+                                    <label for="message">Message</label>
+                                    <textarea
+                                      id="message"
+                                      name="message"
+                                      placeholder="Message"
+                                      required=""
+                                    ></textarea>
+                                    <button type="submit">Send</button>
+                                  </form>
                             </div>
                         </div>
                     </div>
