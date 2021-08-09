@@ -15,7 +15,9 @@ h5,
 h6 {
     color: #414141;
 }
-
+.what{
+    color: #ffffff;
+}
 a {
     color: #313131;
     transition: .3s;
