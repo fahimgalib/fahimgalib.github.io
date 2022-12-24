@@ -4,7 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
@@ -15,8 +14,31 @@
 <url>
   <loc>https://fahimgalib.github.io/index.html</loc>
   <lastmod>2022-12-24T06:55:41+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://fahimgalib.github.io/#about</loc>
+  <lastmod>2022-12-24T06:55:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-
+<url>
+  <loc>https://fahimgalib.github.io/#service</loc>
+  <lastmod>2022-12-24T06:55:41+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fahimgalib.github.io/#experience</loc>
+  <lastmod>2022-12-24T06:55:41+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://fahimgalib.github.io/#portfolio</loc>
+  <lastmod>2022-12-24T06:55:41+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://fahimgalib.github.io/#contact</loc>
+  <lastmod>2022-12-24T06:55:41+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
 </urlset>
