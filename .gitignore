@@ -1,0 +1,12 @@
+# Ignore extracted zip / duplicate folder
+fahimgalib.github.io-main/
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor caches
+.vscode/
+.idea/
